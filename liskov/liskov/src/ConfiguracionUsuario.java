@@ -1,4 +1,4 @@
-public class ConfiguracionUsuario implements RecursoPersistente {
+public class ConfiguracionUsuario implements Loadable, Savebeable,Inotificable {
     @Override
     public void load() {
         System.out.println("Configuracion usuario cargada");
@@ -7,5 +7,10 @@ public class ConfiguracionUsuario implements RecursoPersistente {
     @Override
     public void save() {
         System.out.println("Configuracion usuario almacenada");
+    }
+
+    @Override
+    public void notificar(){
+        System.out.println("Configuracion usuario notificada");
     }
 }

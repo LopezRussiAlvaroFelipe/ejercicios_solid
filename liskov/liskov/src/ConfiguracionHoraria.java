@@ -1,6 +1,16 @@
-public class ConfiguracionHoraria implements RecursoSoloLectura {
+public class ConfiguracionHoraria implements Loadable, Savebeable,Inotificable {
     @Override
     public void load() {
-        System.out.println("Configuracion horaria cargada");
+        System.out.println("Configuracion usuario cargada");
+    }
+
+    @Override
+    public void save() {
+        System.out.println("Configuracion usuario almacenada");
+    }
+
+    @Override
+    public void notificar(){
+        System.out.println("Configuracion usuario notificada");
     }
 }
