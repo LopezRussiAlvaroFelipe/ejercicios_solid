@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/abierto-cerrado/abierto-cerrado.iml" filepath="$PROJECT_DIR$/abierto-cerrado/abierto-cerrado.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/ejercicios_solid-main.iml" filepath="$PROJECT_DIR$/.idea/ejercicios_solid-main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/icp/icp.iml" filepath="$PROJECT_DIR$/icp/icp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/liskov/liskov.iml" filepath="$PROJECT_DIR$/liskov/liskov.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ocp/ocp.iml" filepath="$PROJECT_DIR$/ocp/ocp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/srp/srp.iml" filepath="$PROJECT_DIR$/srp/srp.iml" />
+    </modules>
+  </component>
+</project>
